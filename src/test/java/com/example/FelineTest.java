@@ -33,4 +33,8 @@ public class FelineTest {
     public void testGetKittens() {
         assertEquals(1,feline.getKittens());
     }
+    @Test
+    public void testGetKittensWithParameter() {
+        assertEquals(2, feline.getKittens(2));
+    }
 }
